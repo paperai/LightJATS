@@ -1,0 +1,31 @@
+﻿site_name: LightJAS
+site_author: 'Hiroyuki Shindo'
+
+# Documentation and theme
+docs_dir: 'docs'
+theme: 'material'
+
+pages:
+  - Home: index.md
+  - Spec: spec.md
+
+# Options
+extra:
+  palette:
+    primary: 'Light Blue'
+    accent: 'Orange'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  i18n:
+    prev: 'Previous'
+    next: 'Next'
+  author:
+    github: 'hshindo'
+
+# Extensions
+markdown_extensions:
+  - codehilite(css_class=code)
+  - admonition
+  - toc:
+      permalink: '#'
