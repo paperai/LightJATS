@@ -1,0 +1,44 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "LightJATS\n\n\n\n\nGithub\n\n\n\n\n\n\nNote\n\n\nNote",
+            "title": "Home"
+        },
+        {
+            "location": "/#lightjats",
+            "text": "Github    Note  Note",
+            "title": "LightJATS"
+        },
+        {
+            "location": "/spec/",
+            "text": "LightJATS Specification\n\n\n\n\narticle\n\n\nfront\n\n\njournal-title\n\n\nyear\n\n\narticle-title\n\n\nabstract\n\n\n~~\ncontrib[@contrib-type=\"author\"]\n~~ \u2192 rename to \nauthor\n\n\nprefix\n\n\ngiven-names\n\n\nsurname\n\n\nsuffix\n\n\n\n\n\n\n\n\n\n\nbody\n\n\n~~\ndef-list\n~~ \u2192 merge with \nlist\n\n\ndisp-formula\n\n\nmml:math\n\n\nlabel\n\n\n\n\n\n\ndisp-formula-group\n\n\nlabel\n\n\ncaption\n\n\n~~\ntitle\n~~ \u2192 merge with \ncaption\n\n\n~~\np\n~~ \u2192 merge with \ncaption\n\n\n\n\n\n\n\n\n\n\nlist\n\n\n~~\nlabel\n~~ \u2192 merge with \ntitle\n\n\ntitle\n\n\nlist-item\n\n\n\n\n\n\np\n\n\nsec\n\n\n~~\nlabel\n~~ \u2192 merge with \ntitle\n\n\ntitle\n\n\n\n\n\n\nstatement\n\n\n~~\nlabel\n~~ \u2192 merge with \ntitle\n\n\ntitle\n\n\n\n\n\n\nsub\n\n\nsup\n\n\nxref\n\n\n\n\n\n\nback\n\n\nref-list\n\n\n~~\nlabel\n~~ \u2192 merge with \ntitle\n\n\ntitle\n\n\nref\n\n\n~~element-citation~~ \u2192 rename to \ncitation\n\n\n~~mixed-citation~~ \u2192 rename to \ncitation\n\n\ncitation\n\n\narticle-title\n\n\nname\n\n\ncollab\n\n\nday\n\n\nmonth\n\n\nyear\n\n\nfpage\n\n\nlpage\n\n\nissue\n\n\npub-id\n\n\npublisher-loc\n\n\npublisher-name\n\n\nsource\n\n\nedition\n\n\nvolume\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nfloats-group\n\n\nboxed-text\n\n\nlabel\n\n\ncaption\n\n\n~~\ntitle\n~~ \u2192 merge with \ncaption\n\n\n~~\np\n~~ \u2192 merge with \ncaption\n\n\n\n\n\n\n\n\n\n\nfig\n\n\nlabel\n\n\ncaption\n\n\n~~\ntitle\n~~ \u2192 merge with \ncaption\n\n\n~~\np\n~~ \u2192 merge with \ncaption\n\n\n\n\n\n\n\n\n\n\nfig-group\n\n\nlabel\n\n\ncaption\n\n\n~~\ntitle\n~~ \u2192 merge with \ncaption\n\n\n~~\np\n~~ \u2192 merge with \ncaption\n\n\n\n\n\n\nfig\n\n\n\n\n\n\ntable\n\n\nthead\n\n\ntr\n\n\nth\n\n\ntd\n\n\n\n\n\n\n\n\n\n\ntbody\n\n\ntr\n\n\nth\n\n\ntd\n\n\n\n\n\n\n\n\n\n\ntfoot\n\n\ntr\n\n\nth\n\n\ntd\n\n\n\n\n\n\n\n\n\n\ntr\n\n\nth\n\n\ntd\n\n\n\n\n\n\n\n\n\n\ntable-wrap\n\n\nlabel\n\n\ncaption\n\n\n~~\ntitle\n~~ \u2192 merge with \ncaption\n\n\n~~\np\n~~ -> merge with \ncaption\n\n\n\n\n\n\ntable\n\n\n\n\n\n\ntable-wrap-group\n\n\nlabel\n\n\ncaption\n\n\n~~\ntitle\n~~ \u2192 merge with \ncaption\n\n\n~~\np\n~~ -> merge with \ncaption",
+            "title": "Spec"
+        },
+        {
+            "location": "/spec/#lightjats-specification",
+            "text": "article  front  journal-title  year  article-title  abstract  ~~ contrib[@contrib-type=\"author\"] ~~ \u2192 rename to  author  prefix  given-names  surname  suffix      body  ~~ def-list ~~ \u2192 merge with  list  disp-formula  mml:math  label    disp-formula-group  label  caption  ~~ title ~~ \u2192 merge with  caption  ~~ p ~~ \u2192 merge with  caption      list  ~~ label ~~ \u2192 merge with  title  title  list-item    p  sec  ~~ label ~~ \u2192 merge with  title  title    statement  ~~ label ~~ \u2192 merge with  title  title    sub  sup  xref    back  ref-list  ~~ label ~~ \u2192 merge with  title  title  ref  ~~element-citation~~ \u2192 rename to  citation  ~~mixed-citation~~ \u2192 rename to  citation  citation  article-title  name  collab  day  month  year  fpage  lpage  issue  pub-id  publisher-loc  publisher-name  source  edition  volume          floats-group  boxed-text  label  caption  ~~ title ~~ \u2192 merge with  caption  ~~ p ~~ \u2192 merge with  caption      fig  label  caption  ~~ title ~~ \u2192 merge with  caption  ~~ p ~~ \u2192 merge with  caption      fig-group  label  caption  ~~ title ~~ \u2192 merge with  caption  ~~ p ~~ \u2192 merge with  caption    fig    table  thead  tr  th  td      tbody  tr  th  td      tfoot  tr  th  td      tr  th  td      table-wrap  label  caption  ~~ title ~~ \u2192 merge with  caption  ~~ p ~~ -> merge with  caption    table    table-wrap-group  label  caption  ~~ title ~~ \u2192 merge with  caption  ~~ p ~~ -> merge with  caption",
+            "title": "LightJATS Specification"
+        },
+        {
+            "location": "/table/",
+            "text": "<table>",
+            "title": "table"
+        },
+        {
+            "location": "/table/#table",
+            "text": "",
+            "title": "&lt;table&gt;"
+        },
+        {
+            "location": "/figure/",
+            "text": "<table>",
+            "title": "figure"
+        },
+        {
+            "location": "/figure/#table",
+            "text": "",
+            "title": "&lt;table&gt;"
+        }
+    ]
+}
